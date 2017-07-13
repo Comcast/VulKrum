@@ -81,9 +81,9 @@ Licensed under the Apache License, verison 2.0 (the "License"). See LICENSE file
 # Usage
 - Example:
   - Testmode and Interactive:
-  	- vulkrum.ps1 -vRopsFQDN vrops-vip.cable.comcast.com -CredentialPath vmbalance_cred.xml -VCExclusionList vcexclusionlist.txt -ClusterExclusionList clusterexclusionlist.txt -Interactive -TestOnly
+  	- vulkrum.ps1 -vRopsFQDN vrops.server.name -CredentialPath vmbalance_cred.xml -VCExclusionList vcexclusionlist.txt -ClusterExclusionList clusterexclusionlist.txt -Interactive -TestOnly
   - Normal Mode:
-  	- vulkrum.ps1 -vRopsFQDN vrops-vip.cable.comcast.com -CredentialPath vmbalance_cred.xml -VCExclusionList vcexclusionlist.txt -ClusterExclusionList clusterexclusionlist.txt
+  	- vulkrum.ps1 -vRopsFQDN vrops.server.name -CredentialPath vmbalance_cred.xml -VCExclusionList vcexclusionlist.txt -ClusterExclusionList clusterexclusionlist.txt
 
 # Logging
 A log file of all actions will be created in a Log directory in the same directory where the script is executed from.
