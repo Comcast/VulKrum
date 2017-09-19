@@ -12,6 +12,7 @@ Licensed under the Apache License, verison 2.0 (the "License"). See LICENSE file
   - vRops - Tested with v6.3
   - vSphere/vCenter - tested with v5.5
   - PowerShell - Tested with v5.1
+  - Connection to VBN
   - XML credenitals file created with desired credentials
 	  - $credential = Get-Credential
 	  - $credential | Export-Clixml vmbalance_cred.xml
